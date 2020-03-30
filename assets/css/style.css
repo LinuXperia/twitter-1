@@ -1,0 +1,111 @@
+h1, h2, p {
+    font-family: 'Baloo Da 2', cursive;
+}
+
+#index {
+    background: #4a59bf;
+}
+
+#index h1 img {
+    width: 80px;
+}
+
+#index header {
+    width: 80px;
+    margin: 50px auto;
+}
+
+#home {
+    background: #dedede;
+}
+
+#home header {
+    background:#4a59bf;
+}
+
+#home h1 {
+    float: left;
+    margin: 0 50px 0 30px;
+}
+
+#home h1 img {
+    width: 60px;
+}
+
+#home form {
+    padding: 10px 0;
+}
+
+#home form input[type=text] {
+    height: 40px;
+    width: 82%;
+    padding: 0 10px;
+}
+
+#home #wrapper {
+    margin: 120px auto;
+}
+
+#home h2 {
+    font-size: 32px;
+}
+
+#wrapper {
+    width: 434px;
+    margin: 0 auto;
+}
+
+#login, #sign-up {
+    margin-top: 50px;
+    background: #4f85b5;
+    padding: 30px;
+}
+
+#login h2, #sign-up h2 {
+    color:#fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#login input, #sign-up input {
+    display: block;
+    width: 100%;
+}
+
+#login input::placeholder, #sign-up input::placeholder {
+    color: #fff;
+}
+
+#login input:not(:last-child), #sign-up input:not(:last-child) {
+    border: none;
+    height: 40px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff29!important;
+    color: #fff;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+#login input:last-child, #sign-up input:last-child {
+    background: #000;
+    color: #fff;
+    border: none;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#login p, #sign-up p {
+    color: #000;
+}
+
+#login p a, #sign-up p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#sign-up {
+    display:none;
+}
